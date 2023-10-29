@@ -1,2 +1,2 @@
-# projeto-harve
-Projeto desenvolvido em aula do curso full stack PHP escola Harve Academy Curitiba
+Projeto desenvolvido durante o curso Full Stack PHP escola Harve Academy.
+Técnologias abordadas: HTML5, CSS3, Javascript, PHP, Larável e React.
