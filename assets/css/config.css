@@ -1,9 +1,20 @@
 :root{
     --white:#FFF;
     --black:#000;
-    --grey:#E5E5E5;
+    --grey:#EFEFEF;
+    --red:#CB0215;
     --text-large:2em;
     --text-medium:1.5em;
+    --border-default: 1px solid var(--grey);
+    --border-lg: 3px solid var(--grey);
+    --bd-right-none: none;
+    --widget-title:  1.5em Roboto-Regular;
+    --principal-title:  bold 4em JosefinSans-Variable;
+    --description-product: bold 1em Rubik-Variable;
+    --bx-prod-cat: 0.8em Roboto-Regular;
+    --bx-prod-title: 1em Roboto-Regular;
+    --bx-info-p: 0.7em Roboto-Regular;
+    --box-shadow: 1px 1px 10px rgba(210, 210, 210, 0.5);
 
 }
 @font-face {
@@ -28,7 +39,11 @@
     font-family:Roboto-Regular, Rubik-Variable, JosefinSans-Variable;
 }
 h1{
-    font-size: var(--text-large);
+    font: var(--principal-title);
+}
+
+.widget-title h2{
+    font:var(--widget-title);
 }
 .container{
     display: flex;
@@ -63,7 +78,15 @@ h1{
 .center-x{
     justify-content: center;
 }
-
+.m10{
+    margin: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.m20{
+    margin:20px
+}
 .mr-10{
     margin-right: 10px;
 }
@@ -73,22 +96,28 @@ h1{
 .mtb-20{
     margin: 20px 0;
 }
+.mtb-50{
+    margin: 50px 0;
+}
 .mrl-20{
     margin: 0 20px;
 }
-.box-product{
-    width: 320px;
-    max-width: 320px;
-    border: 1px solid var(--grey);
+.mrl-40{
+    margin: 0 40px;
 }
-.box-product-img{
-    max-width: 200px;
-    height: 200px;
-  
+.p-20{
+    padding: 20px;
 }
-.box-product-body{
-    width: 80%;
+.p-30{
+    padding: 30px;
 }
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+
 .img-fluid{
     max-width: 100%;
     height: auto;
@@ -99,11 +128,19 @@ h1{
 }
 
 .widget{
+    flex: 1;
+    width: 100%;
     min-width:300px;
+}
+.banner{
+    width: 250px;
+    margin-right: 20px;
 }
 .btn{
     width:130px;
     padding: 10px;
     background: var(--black);
     color: var(--white);
+    font: 0.8em Rubik-Variable;
+    text-transform: uppercase
 }
