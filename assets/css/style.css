@@ -157,3 +157,44 @@ height: 250px;
     width: 150px;
 
 }
+
+.list-others-products{
+    width: 360px;
+    min-width: 350px;
+
+}
+
+.container.demais .widget .widget-title{
+    border-bottom: var(--border-default);
+    padding-bottom: 10px;
+
+}
+
+.container.demais .widget .widget-title h2::before{
+    
+    content: "";
+    background:var(--red);
+    display: block;
+    width: 60px;
+    height: 2px;
+    position:relative;
+    bottom: -40px;
+    left: 0;
+}
+
+.container.demais .widget .widget-title h2::after {
+    content: "";
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid var(--red);
+    position:relative;
+    bottom:-45px;
+    left:-140px;
+  }
+  .img-list-item{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
