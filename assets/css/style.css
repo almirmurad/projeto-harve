@@ -104,7 +104,7 @@ height: 250px;
     
     box-shadow: var(--box-shadow);
 } 
-.info{
+.info,.brands{
     border: var(--border-default);
 }
 
@@ -127,4 +127,33 @@ height: 250px;
 
 .border-bottom{
     border-bottom: var(--border-default);
+}
+
+.banner-midle{
+    background:blue url(../img/layouts/banner-horizontal.jpg);
+    height:500px;
+}
+
+.title-banner{
+    color:var(--white);
+  
+    padding-left: 0;
+}
+.area-bn-md-left{
+    flex: 1;
+
+}
+
+.area-bn-md-right{
+    flex: 1;
+ 
+}
+.bn-md-prices .price{
+    color: var(--white);
+    font-size: 1.2em;
+}
+
+.brands-img img{
+    width: 150px;
+
 }
