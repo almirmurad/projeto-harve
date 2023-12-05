@@ -10,13 +10,16 @@
     --bd-right-none: none;
     --widget-title:  1.5em Roboto-Regular;
     --principal-title:  bold 4em JosefinSans-Variable;
+    --foot-h3: 500 1.2em Rubik-Variable;
     --description-product: bold 1em Rubik-Variable;
+    --foot-first: 0.8em Rubik-Variable;
     --bx-prod-cat: 0.8em Roboto-Regular;
     --bx-prod-title: 1em Roboto-Regular;
     --bx-info-p: 0.7em Roboto-Regular;
     --box-shadow: 1px 1px 10px rgba(210, 210, 210, 0.5);
 
 }
+
 @font-face {
     font-family: Roboto-Regular;
     src: url(../fonts/Roboto-Regular.ttf);
@@ -29,6 +32,7 @@
     font-family: JosefinSans-Variable;
     src: url(../fonts/JosefinSans-VariableFont_wght.ttf);
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -42,6 +46,10 @@ h1, .title-banner{
     font: var(--principal-title);
     text-transform: uppercase;
 
+}
+
+h3{
+    font:var(--foot-h3);
 }
 
 
@@ -152,6 +160,7 @@ h1, .title-banner{
 .btn, .btn-danger{
     width:130px;
     padding: 10px;
+    display: block;
     background: var(--black);
     color: var(--white);
     font: 0.8em Rubik-Variable;
