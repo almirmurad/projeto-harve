@@ -3,6 +3,7 @@
     --black:#000;
     --grey:#EFEFEF;
     --red:#CB0215;
+    --related-background:#F9F9F9;
     --text-large:2em;
     --text-medium:1.5em;
     --border-default: 1px solid var(--grey);
@@ -48,6 +49,12 @@ h1, .title-banner{
 
 }
 
+.text-center{
+
+    text-align: center;
+
+}
+
 h3{
     font:var(--foot-h3);
 }
@@ -73,6 +80,9 @@ h3{
 }
 .between{
     justify-content: space-between;
+}
+.evenly{
+    justify-content: space-evenly;
 }
 .start{
     justify-content: start;
